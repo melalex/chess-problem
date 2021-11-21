@@ -233,7 +233,7 @@ public class ChessProblemApp {
 
         private final int rowCount;
         private final int columnCount;
-        private final CellState[] cells; // In Java is more convenient to use 1d array instead of 2d
+        private final CellState[] cells; // In Java, it is more convenient to use 1d array instead of 2d
 
         static Board of(int rowCount, int columnCount) {
             var cells = new CellState[rowCount * columnCount];
