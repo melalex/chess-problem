@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 public class ChessProblemApp {
 
     public static void main(String[] args) throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        var reader = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.print("Board height: ");
         var rowCount = Integer.parseInt(reader.readLine());
